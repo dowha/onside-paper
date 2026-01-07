@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { recipients } from "@/lib/config"
 
@@ -7,7 +8,7 @@ export default function Home() {
       <div className="text-center space-y-8 max-w-md">
         <div className="space-y-4">
           <div className="w-24 h-24 mx-auto bg-white/10 rounded-full flex items-center justify-center overflow-hidden">
-            <img src="/logo.png" alt="ONSIDE Logo" className="w-full h-full object-contain p-2" />
+            <Image src="/logo.png" alt="ONSIDE Logo" width={96} height={96} className="w-full h-full object-contain p-2" unoptimized />
           </div>
           <div className="space-y-2">
             <h1 className="text-3xl font-bold text-foreground tracking-tight">온사이드 롤링페이퍼</h1>
