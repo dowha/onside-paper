@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import logo from "../../public/logo.png"
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
@@ -161,7 +162,7 @@ export function RollingPaper({ recipientName, sheetUrl, initialLetters }: Rollin
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="bg-secondary rounded-lg p-1">
             <Link href="/" className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-card text-foreground shadow-sm hover:opacity-80 transition-all">
-              <Image src="/logo.png" alt="ONSIDE Logo" width={20} height={20} className="w-5 h-5 object-contain" unoptimized />
+              <Image src={logo} alt="ONSIDE Logo" width={20} height={20} className="w-5 h-5 object-contain" unoptimized />
               <span className="text-sm font-bold leading-tight">온사이드 롤링페이퍼</span>
             </Link>
           </div>

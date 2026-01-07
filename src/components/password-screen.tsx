@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import logo from "../../public/logo.png"
 
 import type React from "react"
 
@@ -41,7 +42,7 @@ export function PasswordScreen({ slug, recipientName, expectedPassword, onAuthen
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="text-center space-y-4">
             <div className="w-20 h-20 mx-auto bg-white/10 rounded-full flex items-center justify-center overflow-hidden">
-              <Image src="/logo.png" alt="ONSIDE Logo" width={80} height={80} className="w-full h-full object-contain p-2" unoptimized />
+              <Image src={logo} alt="ONSIDE Logo" width={80} height={80} className="w-full h-full object-contain p-2" unoptimized />
             </div>
             <div>
               <p className="text-xs text-muted-foreground uppercase tracking-widest mb-1">ONSIDE</p>
