@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dowha.github.io/onside-paper"),
   title: "롤링페이퍼 | ONSIDE",
   description: "온사이드 멤버들의 마음이 담긴 롤링페이퍼입니다.",
   robots: {
@@ -22,6 +23,12 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "온사이드 롤링페이퍼",
+    description: "마음을 담은 편지들",
+    images: ["/og-image.png"],
   },
 }
 
