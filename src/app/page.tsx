@@ -12,8 +12,8 @@ export default function Home() {
             <Image src={logo} alt="ONSIDE Logo" width={96} height={96} className="w-full h-full object-contain p-2" unoptimized />
           </div>
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-foreground tracking-tight">온사이드 롤링페이퍼</h1>
-            <p className="text-muted-foreground">감사한 마음을 가득 담아</p>
+            <h1 className="text-3xl font-bold text-foreground tracking-tight">온사이드 롤링페이퍼 for 2기 운영진</h1>
+            <p className="text-muted-foreground">고마운 마음을 가득 담아💚</p>
           </div>
         </div>
 
